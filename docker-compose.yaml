@@ -1,0 +1,7 @@
+services:
+  ubuntu:
+    image: tcp-ip
+    container_name: tcp-ip
+    build:
+      context: .
+    tty: true
