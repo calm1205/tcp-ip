@@ -2,6 +2,7 @@ FROM ubuntu:latest
 RUN apt-get update
 RUN apt-get -y install \
     bash \
+    sudo \
     coreutils \
     iproute2 \
     iputils-ping \
