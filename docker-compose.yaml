@@ -1,6 +1,6 @@
 services:
   ubuntu:
-    image: tcp-ip
+    image: ubuntu:tcp-ip
     container_name: tcp-ip
     build:
       context: .
